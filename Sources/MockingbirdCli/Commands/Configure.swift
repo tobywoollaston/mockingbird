@@ -104,15 +104,15 @@ extension Mockingbird {
         logInfo("🛠  Source Project: \(parsedConfigureArguments.sourceProject.abbreviate())")
       }
       logInfo("🎯 Test Target: \(parsedConfigureArguments.testTarget)")
-      logInfo("🧰 Supporting sources: \(parsedGenerateArguments.support.abbreviate())")
-      
-      let downloaderConfig = Downloader.Configuration(
-        assetBundleType: .starterPack,
-        outputPath: parsedGenerateArguments.support.parent(),
-        urlTemplate: parsedConfigureArguments.urlTemplate)
-      let downloader = Downloader(config: downloaderConfig)
-      try downloader.download()
-      logInfo("✅ Downloaded supporting source files")
+//      logInfo("🧰 Supporting sources: \(parsedGenerateArguments.support.abbreviate())")
+//      
+//      let downloaderConfig = Downloader.Configuration(
+//        assetBundleType: .starterPack,
+//        outputPath: parsedGenerateArguments.support.parent(),
+//        urlTemplate: parsedConfigureArguments.urlTemplate)
+//      let downloader = Downloader(config: downloaderConfig)
+//      try downloader.download()
+//      logInfo("✅ Downloaded supporting source files")
       
       // Ensure consistency between the build phase and the generator frontend while also performing
       // path transformations to make the installation relative to the project source root.

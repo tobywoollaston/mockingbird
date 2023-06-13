@@ -155,7 +155,7 @@ class ThunkTemplate: Template {
     \(IfStatementTemplate(
         condition: """
         let mkbValue = \(FunctionCallTemplate(
-                          name: "mockingbirdContext.stubbing.defaultValueProvider.value.provideValue",
+                          name: "self.mockingbirdContext.stubbing.defaultValueProvider.value.provideValue",
                           arguments: [("for", "\(parenthetical: returnType).self")])) as \(returnType)?
         """,
         body: "return mkbValue"))
