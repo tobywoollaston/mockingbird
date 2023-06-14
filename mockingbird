@@ -20,8 +20,8 @@ mkdir -p "${binDir}"
 readonly executable="./${binDir}/mockingbird/mockingbird"
 
 # Extract
-unzip -oq "${mockingbirdZip}" -d "${binDir}"
+unzip -oq "${mockingbirdZip}" -d "./${binDir}"
 chmod u+x "${executable}"
 
 popd > /dev/null
-MKB_LAUNCHER="$0" "${executable}" "$@"
+MKB_LAUNCHER="$0" "${srcroot}/${executable}" "$@"
