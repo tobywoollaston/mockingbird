@@ -4,6 +4,10 @@ import SwiftSyntax
 class TestFileParser: SyntaxVisitor {
   var mockedTypeNames = Set<String>()
   
+  init() {
+    super.init(viewMode: SyntaxTreeViewMode.fixedUp)
+  }
+  
   func parse<SyntaxType: SyntaxProtocol>(_ node: SyntaxType) -> Self {
     walk(node)
     return self

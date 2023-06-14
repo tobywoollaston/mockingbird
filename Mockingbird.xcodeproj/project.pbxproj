@@ -90,7 +90,6 @@
 		286DE656277EB7940047B0F3 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C8E0E277AA34000DE525A /* Logging.swift */; };
 		286DE657277EB7940047B0F3 /* Subprocess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C8D852779487500DE525A /* Subprocess.swift */; };
 		286DE659277EB84D0047B0F3 /* PathKit in Frameworks */ = {isa = PBXBuildFile; productRef = 286DE658277EB84D0047B0F3 /* PathKit */; };
-		28719AF026B21CB100C38C2C /* MKBProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 28719AEE26B21CB100C38C2C /* MKBProperty.h */; };
 		28719AF126B21CB100C38C2C /* MKBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 28719AEF26B21CB100C38C2C /* MKBProperty.m */; };
 		28719AF326B22D1300C38C2C /* Stubbing+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28719AF226B22D1300C38C2C /* Stubbing+ObjC.swift */; };
 		28719AF526B23AB200C38C2C /* ObjectiveCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28719AF426B23AB200C38C2C /* ObjectiveCTests.swift */; };
@@ -98,16 +97,13 @@
 		2873D49E27899CE2004523BC /* BuildSupportingSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873D49D27899CE2004523BC /* BuildSupportingSources.swift */; };
 		287BB9CB26AE1578004014CA /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287BB9CA26AE1577004014CA /* Mock.swift */; };
 		287BB9CD26AE15F0004014CA /* InvocationForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287BB9CC26AE15F0004014CA /* InvocationForwarding.swift */; };
-		287C4F3B26A3547000A7E0D9 /* MKBClassMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C4F3926A3547000A7E0D9 /* MKBClassMock.h */; };
 		287C4F3C26A3547000A7E0D9 /* MKBClassMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F3A26A3547000A7E0D9 /* MKBClassMock.m */; };
-		287C4F3F26A3547F00A7E0D9 /* MKBProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C4F3D26A3547F00A7E0D9 /* MKBProtocolMock.h */; };
 		287C4F4026A3547F00A7E0D9 /* MKBProtocolMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F3E26A3547F00A7E0D9 /* MKBProtocolMock.m */; };
 		287C4F4326A3688100A7E0D9 /* MKBMocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C4F4126A3688100A7E0D9 /* MKBMocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		287C4F4426A3688100A7E0D9 /* MKBMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F4226A3688100A7E0D9 /* MKBMocking.m */; };
 		287C4F4F26A36DC000A7E0D9 /* MKBTypeFacade.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C4F4D26A36DC000A7E0D9 /* MKBTypeFacade.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		287C4F5026A36DC000A7E0D9 /* MKBTypeFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F4E26A36DC000A7E0D9 /* MKBTypeFacade.m */; };
 		287C4F5426A36FFF00A7E0D9 /* DynamicSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F5326A36FFF00A7E0D9 /* DynamicSwiftTests.swift */; };
-		287C4F5726A3710600A7E0D9 /* MKBConcreteMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C4F5526A3710600A7E0D9 /* MKBConcreteMock.h */; };
 		287C4F5826A3710600A7E0D9 /* MKBConcreteMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F5626A3710600A7E0D9 /* MKBConcreteMock.m */; };
 		287C4F6426A3D21D00A7E0D9 /* MonotonicIncreasingIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F6326A3D21D00A7E0D9 /* MonotonicIncreasingIndex.swift */; };
 		287C4F6626A3E00800A7E0D9 /* NonEscapingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287C4F6526A3E00800A7E0D9 /* NonEscapingType.swift */; };
@@ -235,6 +231,10 @@
 		D3EC1C0B2490BB92004E555F /* SourceTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC1C0A2490BB92004E555F /* SourceTarget.swift */; };
 		D3EC1C0D2490BEB5004E555F /* TestTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC1C0C2490BEB5004E555F /* TestTarget.swift */; };
 		D3EC1C0F2490EC5C004E555F /* Path+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC1C0E2490EC5C004E555F /* Path+Codable.swift */; };
+		DA12683D2A39AB8100096084 /* MKBClassMock.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1268392A39AB8000096084 /* MKBClassMock.h */; };
+		DA12683F2A39AB8100096084 /* MKBProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = DA12683B2A39AB8000096084 /* MKBProtocolMock.h */; };
+		DA1268402A39AB8100096084 /* MKBConcreteMock.h in Headers */ = {isa = PBXBuildFile; fileRef = DA12683C2A39AB8000096084 /* MKBConcreteMock.h */; };
+		DA1268422A39AE0800096084 /* MKBProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1268412A39AE0800096084 /* MKBProperty.h */; };
 		OBJ_1019 /* ChildMockMockableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* ChildMockMockableTests.swift */; };
 		OBJ_1020 /* ChildMockStubbableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* ChildMockStubbableTests.swift */; };
 		OBJ_1021 /* ChildProtocolMockMockableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* ChildProtocolMockMockableTests.swift */; };
@@ -622,7 +622,6 @@
 		286DE648277EAFB50047B0F3 /* MockingbirdAutomationTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MockingbirdAutomationTests.xcconfig; sourceTree = "<group>"; };
 		286DE649277EB00F0047B0F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		286DE64A277EB0240047B0F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28719AEE26B21CB100C38C2C /* MKBProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBProperty.h; sourceTree = "<group>"; };
 		28719AEF26B21CB100C38C2C /* MKBProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBProperty.m; sourceTree = "<group>"; };
 		28719AF226B22D1300C38C2C /* Stubbing+ObjC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stubbing+ObjC.swift"; sourceTree = "<group>"; };
 		28719AF426B23AB200C38C2C /* ObjectiveCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveCTests.swift; sourceTree = "<group>"; };
@@ -630,16 +629,13 @@
 		2873D49D27899CE2004523BC /* BuildSupportingSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildSupportingSources.swift; sourceTree = "<group>"; };
 		287BB9CA26AE1577004014CA /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		287BB9CC26AE15F0004014CA /* InvocationForwarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvocationForwarding.swift; sourceTree = "<group>"; };
-		287C4F3926A3547000A7E0D9 /* MKBClassMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBClassMock.h; sourceTree = "<group>"; };
 		287C4F3A26A3547000A7E0D9 /* MKBClassMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBClassMock.m; sourceTree = "<group>"; };
-		287C4F3D26A3547F00A7E0D9 /* MKBProtocolMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBProtocolMock.h; sourceTree = "<group>"; };
 		287C4F3E26A3547F00A7E0D9 /* MKBProtocolMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBProtocolMock.m; sourceTree = "<group>"; };
 		287C4F4126A3688100A7E0D9 /* MKBMocking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBMocking.h; sourceTree = "<group>"; };
 		287C4F4226A3688100A7E0D9 /* MKBMocking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBMocking.m; sourceTree = "<group>"; };
 		287C4F4D26A36DC000A7E0D9 /* MKBTypeFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBTypeFacade.h; sourceTree = "<group>"; };
 		287C4F4E26A36DC000A7E0D9 /* MKBTypeFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBTypeFacade.m; sourceTree = "<group>"; };
 		287C4F5326A36FFF00A7E0D9 /* DynamicSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSwiftTests.swift; sourceTree = "<group>"; };
-		287C4F5526A3710600A7E0D9 /* MKBConcreteMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBConcreteMock.h; sourceTree = "<group>"; };
 		287C4F5626A3710600A7E0D9 /* MKBConcreteMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBConcreteMock.m; sourceTree = "<group>"; };
 		287C4F6326A3D21D00A7E0D9 /* MonotonicIncreasingIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicIncreasingIndex.swift; sourceTree = "<group>"; };
 		287C4F6526A3E00800A7E0D9 /* NonEscapingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonEscapingType.swift; sourceTree = "<group>"; };
@@ -766,6 +762,10 @@
 		D3EC1C0A2490BB92004E555F /* SourceTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTarget.swift; sourceTree = "<group>"; };
 		D3EC1C0C2490BEB5004E555F /* TestTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTarget.swift; sourceTree = "<group>"; };
 		D3EC1C0E2490EC5C004E555F /* Path+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Codable.swift"; sourceTree = "<group>"; };
+		DA1268392A39AB8000096084 /* MKBClassMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKBClassMock.h; path = include/MKBClassMock.h; sourceTree = "<group>"; };
+		DA12683B2A39AB8000096084 /* MKBProtocolMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKBProtocolMock.h; path = include/MKBProtocolMock.h; sourceTree = "<group>"; };
+		DA12683C2A39AB8000096084 /* MKBConcreteMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKBConcreteMock.h; path = include/MKBConcreteMock.h; sourceTree = "<group>"; };
+		DA1268412A39AE0800096084 /* MKBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKBProperty.h; path = include/MKBProperty.h; sourceTree = "<group>"; };
 		"Mockingbird::MockingbirdCli::Product" /* MockingbirdCli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MockingbirdCli; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Mockingbird::MockingbirdFramework::Product" /* Mockingbird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mockingbird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Mockingbird::MockingbirdGenerator::Product" /* MockingbirdGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MockingbirdGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1201,14 +1201,14 @@
 		2894622026A28F3C00044839 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				287C4F3926A3547000A7E0D9 /* MKBClassMock.h */,
+				DA1268392A39AB8000096084 /* MKBClassMock.h */,
 				287C4F3A26A3547000A7E0D9 /* MKBClassMock.m */,
-				287C4F5526A3710600A7E0D9 /* MKBConcreteMock.h */,
+				DA12683C2A39AB8000096084 /* MKBConcreteMock.h */,
 				287C4F5626A3710600A7E0D9 /* MKBConcreteMock.m */,
-				28719AEE26B21CB100C38C2C /* MKBProperty.h */,
-				28719AEF26B21CB100C38C2C /* MKBProperty.m */,
-				287C4F3D26A3547F00A7E0D9 /* MKBProtocolMock.h */,
+				DA12683B2A39AB8000096084 /* MKBProtocolMock.h */,
 				287C4F3E26A3547F00A7E0D9 /* MKBProtocolMock.m */,
+				DA1268412A39AE0800096084 /* MKBProperty.h */,
+				28719AEF26B21CB100C38C2C /* MKBProperty.m */,
 				289FCFF826D5C4E0009786A3 /* Bridge */,
 				28C8E5D826A64D1600C68A1D /* InvocationHandlers */,
 			);
@@ -2081,15 +2081,17 @@
 			files = (
 				2894622626A2AF6F00044839 /* Mockingbird.h in Headers */,
 				28967D09278BF3E600E523D9 /* MKBTestExpectation.h in Headers */,
+				DA1268422A39AE0800096084 /* MKBProperty.h in Headers */,
+				DA1268402A39AB8100096084 /* MKBConcreteMock.h in Headers */,
 				28571AB826A666070063AB83 /* MKBUnsignedCharInvocationHandler.h in Headers */,
 				28571A8C26A65F680063AB83 /* MKBBoolInvocationHandler.h in Headers */,
 				28843B2726AE710400AFB8DF /* MKBTestUtils.h in Headers */,
+				DA12683F2A39AB8100096084 /* MKBProtocolMock.h in Headers */,
 				28571A9C26A661910063AB83 /* MKBDoubleInvocationHandler.h in Headers */,
 				28571AA026A6623C0063AB83 /* MKBFloatInvocationHandler.h in Headers */,
 				28571AAC26A664340063AB83 /* MKBSelectorInvocationHandler.h in Headers */,
 				28571AB026A664AF0063AB83 /* MKBShortInvocationHandler.h in Headers */,
-				287C4F3B26A3547000A7E0D9 /* MKBClassMock.h in Headers */,
-				287C4F5726A3710600A7E0D9 /* MKBConcreteMock.h in Headers */,
+				DA12683D2A39AB8100096084 /* MKBClassMock.h in Headers */,
 				287C4F4326A3688100A7E0D9 /* MKBMocking.h in Headers */,
 				28571ACC26A668530063AB83 /* MKBInvocationHandlerChain.h in Headers */,
 				28571AC826A667300063AB83 /* MKBUnsignedShortInvocationHandler.h in Headers */,
@@ -2108,9 +2110,7 @@
 				28571A9826A660DB0063AB83 /* MKBClassInvocationHandler.h in Headers */,
 				28571ABC26A6663D0063AB83 /* MKBUnsignedIntInvocationHandler.h in Headers */,
 				28571A7C26A6548B0063AB83 /* MKBObjectInvocationHandler.h in Headers */,
-				28719AF026B21CB100C38C2C /* MKBProperty.h in Headers */,
 				28571A8826A65EB80063AB83 /* MKBIntInvocationHandler.h in Headers */,
-				287C4F3F26A3547F00A7E0D9 /* MKBProtocolMock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2343,9 +2343,10 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftMigration = 9999;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					285C8EA4277DA59E00DE525A = {
 						CreatedOnToolsVersion = 13.2;
@@ -2953,6 +2954,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2984,6 +2986,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A597245586DD0000E80A /* MockingbirdCli-Profile.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Profile;
 		};
@@ -2991,6 +2994,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A592245586DD0000E80A /* MockingbirdFramework.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -2998,6 +3008,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A593245586DD0000E80A /* MockingbirdGenerator-Profile.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -3005,6 +3021,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A590245586DD0000E80A /* MockingbirdTests.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Profile;
 		};
@@ -3012,6 +3029,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A595245586DD0000E80A /* MockingbirdTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3023,7 +3042,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3042,6 +3063,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A591245586DD0000E80A /* MockingbirdModuleTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3053,7 +3076,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3072,6 +3097,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A595245586DD0000E80A /* MockingbirdTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3083,7 +3110,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3102,6 +3131,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A595245586DD0000E80A /* MockingbirdTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3113,7 +3144,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3132,6 +3165,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A595245586DD0000E80A /* MockingbirdTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3143,7 +3178,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3162,6 +3199,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285C8DFE2779E4BB00DE525A /* MockingbirdCommon.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -3169,6 +3213,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285C8DFE2779E4BB00DE525A /* MockingbirdCommon.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -3176,6 +3227,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285C8DFE2779E4BB00DE525A /* MockingbirdCommon.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -3183,6 +3241,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 286DE648277EAFB50047B0F3 /* MockingbirdAutomationTests.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Debug;
 		};
@@ -3190,6 +3249,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 286DE648277EAFB50047B0F3 /* MockingbirdAutomationTests.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Release;
 		};
@@ -3197,6 +3257,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 286DE648277EAFB50047B0F3 /* MockingbirdAutomationTests.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Profile;
 		};
@@ -3204,6 +3265,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 286DE646277EAF5F0047B0F3 /* MockingbirdAutomation.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -3211,6 +3278,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 286DE646277EAF5F0047B0F3 /* MockingbirdAutomation.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -3218,6 +3291,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 286DE646277EAF5F0047B0F3 /* MockingbirdAutomation.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Profile;
 		};
@@ -3225,6 +3304,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285C8DFF2779E56C00DE525A /* MockingbirdAutomationCli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Debug;
 		};
@@ -3232,6 +3312,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285C8DFF2779E56C00DE525A /* MockingbirdAutomationCli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Release;
 		};
@@ -3239,6 +3320,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285C8DFF2779E56C00DE525A /* MockingbirdAutomationCli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Profile;
 		};
@@ -3246,6 +3328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A590245586DD0000E80A /* MockingbirdTests.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Debug;
 		};
@@ -3253,6 +3336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A590245586DD0000E80A /* MockingbirdTests.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Release;
 		};
@@ -3260,6 +3344,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A595245586DD0000E80A /* MockingbirdTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3271,7 +3357,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3290,6 +3378,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A595245586DD0000E80A /* MockingbirdTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3301,7 +3391,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3340,6 +3432,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
@@ -3394,6 +3487,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -3425,6 +3519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A596245586DD0000E80A /* MockingbirdCli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Debug;
 		};
@@ -3432,6 +3527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A596245586DD0000E80A /* MockingbirdCli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 			};
 			name = Release;
 		};
@@ -3439,6 +3535,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A592245586DD0000E80A /* MockingbirdFramework.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -3446,6 +3549,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A592245586DD0000E80A /* MockingbirdFramework.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -3453,6 +3563,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A594245586DD0000E80A /* MockingbirdGenerator.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -3460,6 +3576,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A594245586DD0000E80A /* MockingbirdGenerator.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -3467,6 +3589,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A591245586DD0000E80A /* MockingbirdModuleTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3478,7 +3602,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3497,6 +3623,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D372A591245586DD0000E80A /* MockingbirdModuleTestsHost.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3508,7 +3636,9 @@
 					"$(inherited)",
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++14";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";

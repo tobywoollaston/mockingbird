@@ -3,6 +3,7 @@ import MockingbirdCommon
 import PathKit
 import SourceKittenFramework
 import SwiftSyntax
+import SwiftParser
 
 class ParseSingleFileOperation: BasicOperation {
   class Result {
@@ -98,7 +99,7 @@ class ParseSwiftSyntaxOperation: BasicOperation {
   override func run() throws {
     // File reading is not shared with the parse SourceKit operation, but parsing >> reading.
     let file = try sourcePath.path.getFile()
-    let sourceFile = try SyntaxParser.parse(source: file.contents)
+    let sourceFile = Parser.parse(source: file.contents)
     let parser = SourceFileAuxiliaryParser(with: {
       SourceLocationConverter(file: "\(self.sourcePath.path)", tree: sourceFile)
     }).parse(sourceFile)
