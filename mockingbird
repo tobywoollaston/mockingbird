@@ -17,7 +17,7 @@ cd "${srcroot}"
 readonly binDir="bin"
 readonly mockingbirdZip="./mockingbird.zip"
 mkdir -p "${binDir}"
-readonly executable="${binDir}/mockingbird/mockingbird"
+readonly executable="./${binDir}/mockingbird/mockingbird"
 
 # Extract
 unzip -oq "${mockingbirdZip}" -d "${binDir}"
